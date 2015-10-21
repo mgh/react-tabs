@@ -16,6 +16,11 @@
   "bugs": {
     "url": "https://github.com/rackt/react-tabs/issues"
   },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "homepage": "https://github.com/rackt/react-tabs",
   "keywords": [
     "react",
